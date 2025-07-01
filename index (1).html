@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website Tugas Akhir</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">TugasAkhir</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#gallery">Galeri</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Selamat Datang di Website Tugas Akhir</h2>
+    <p>Website ini dibuat untuk memenuhi tugas akhir kuliah.</p>
+  </section>
+
+  <section id="about">
+    <h2>Tentang Website</h2>
+    <p>Ini adalah contoh website statis yang dibuat menggunakan HTML, CSS, dan JavaScript. Desainnya responsif dan memiliki fitur sederhana seperti galeri dan form kontak.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Galeri</h2>
+    <div class="gallery-container">
+      <img src="https://picsum.photos/200?random=1" alt="Image 1" />
+      <img src="https://picsum.photos/200?random=2" alt="Image 2" />
+      <img src="https://picsum.photos/200?random=3" alt="Image 3" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Kontak Kami</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Nama Anda" required />
+      <input type="email" id="email" placeholder="Email Anda" required />
+      <textarea id="message" placeholder="Pesan Anda" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+    <p id="formMessage" class="form-message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TugasAkhir. Dibuat dengan ❤️.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
